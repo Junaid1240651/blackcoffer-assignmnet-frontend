@@ -1,0 +1,46 @@
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filters {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.filter-label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.charts {
+  flex: 2;
+}
+.chart-container {
+  width: 800px;
+  height: 800px;
+  margin-bottom: 80px;
+}
