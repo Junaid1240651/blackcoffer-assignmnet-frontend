@@ -27,7 +27,9 @@ const HomePage = () => {
 
   const fetchData = () => {
     axios
-      .get("http://localhost:3000/", { params: filters })
+      .get("https://blackcoffer-assignmneet-backend.onrender.com/", {
+        params: filters,
+      })
       .then((response) => {
         setData(response.data);
       })
