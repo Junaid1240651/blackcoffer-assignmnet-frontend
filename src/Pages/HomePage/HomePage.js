@@ -74,7 +74,7 @@ const HomePage = () => {
           </div>
         </div>
       ) : (
-        "Loading"
+        "Loading Please Wiat It's will take 15 second for first time loading due to Free server Host "
       )}
     </>
   );
